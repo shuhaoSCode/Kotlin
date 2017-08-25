@@ -2,19 +2,19 @@ package com.luke.kotlin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
+import android.view.View
+
 import com.shuhao.uiimageview.UIImageView
 
-class MainActivity : AppCompatActivity() {
+class Main2Activity : AppCompatActivity() {
 
-    var testView: TextView? = null
+    private var uiImageView: UIImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        testView = findViewById(R.id.test_tv)
-
+        //uiImageView = findViewById<w>(R.id.test_uiv)
 
     }
 
